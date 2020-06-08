@@ -9,8 +9,6 @@ PROTECTED - acessível por dentro da classe e por todos os herdeiros como se fos
 
 PRIVATE - acessível apenas dentro do escopo da classe
 
-fala miss
-
 
 */
 
