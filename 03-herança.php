@@ -29,15 +29,15 @@ class Veiculo{
     public function Andar(){
         echo "andou!<br>";
     }
-
+    //método protected, acessível apenas de dentro da classe e de dentro dos herdeiros da classe
     protected function Parar(){
         echo "parou!<br>";
     }
-
+    //método acessivel apenas de dentro da classe
     private function Estacionar(){
         echo "Estacionou!<br>";
     }
-
+    
     public function acessaEstacionar(){
         return $this->Estacionar();
     }
