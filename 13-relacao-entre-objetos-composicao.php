@@ -11,7 +11,7 @@ class Exibe{
     public $nome; 
 
     function __construct($nome){
-        $this->pessoa =  new Pessoa();
+        $this->pessoa =  new Pessoa();?
         $this->nome = $nome;
     }
     public function exibeNome(){
